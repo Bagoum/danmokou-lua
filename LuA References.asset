@@ -22,6 +22,7 @@ MonoBehaviour:
   unitScene: {fileID: 11400000, guid: 231c13e0f2c2b6047b0f05cb29dd7914, type: 2}
   tutorial: {fileID: 0}
   miniTutorial: {fileID: 0}
+  endcard: {fileID: 0}
   campaign: {fileID: 0}
   exCampaign: {fileID: 0}
   dayCampaign: {fileID: 11400000, guid: 5ad237361ada5764094dc6c458d6cb1c, type: 2}
@@ -34,6 +35,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ce2cc8720b8755f48a843881227e069b, type: 2}
   - {fileID: 11400000, guid: d9c9e3cb18c266542aab8bc8f18392e0, type: 2}
   tracks: []
+  items: {fileID: 11400000, guid: 18e6de6e951f4114e8823af9e617bff7, type: 2}
   summonables:
   - {fileID: 11400000, guid: 38afc312ddb0ac242b8cfb301b1b4237, type: 2}
   fileStateMachines: []

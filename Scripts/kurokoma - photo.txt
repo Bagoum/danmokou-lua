@@ -35,7 +35,7 @@ phase 0
 <!> challenge novertical
 <!> challenge nofocus
 <!> type spell `Stop and Doubt: The Road Not Taken`
-<!> photo 6
+<!> photo 4
 <!> root 0 0
 phase 50 #{
 	action block 0
@@ -67,7 +67,7 @@ phase 50 #{
 			wait $ctrlt
 			break
 !!{ rpt 11
-		async fireball-black/ <> gcr2 (lerpt 0 4 5s 4s) _ aphi $rpt {
+		async fireball-black/ <> gcr2 lerpt(0, 4, 5s, - 4s * 0.5s photosTaken($me)) _ aphi $rpt {
 			preloop rootloc =v2 loc
 			expose v2 rootloc
 			sfx x-fire-burst-1
@@ -122,7 +122,7 @@ phase 36 #{
 			sync x-boom <> sfx
 			~ shake 1 0.3 smooth smod-010 / x 0.3
 !!{ crpt 24
-			~ async star-orange* <> gcr3 80 4s aphi $crpt {
+			~ async star-orange* <> gcr3 (- 80 * 15 photosTaken($me)) 4s aphi $crpt {
 				color { /w / }
 				sfx x-fire-burst-1
 				bindLR
