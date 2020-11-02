@@ -28,8 +28,8 @@ MonoBehaviour:
   dayCampaign: {fileID: 11400000, guid: 5ad237361ada5764094dc6c458d6cb1c, type: 2}
   defaultTransition: {fileID: 11400000, guid: abaa34f12f181664b8caff5ceba328a5, type: 2}
   bounds:
-    left: -4
-    right: 4
+    left: -3.6
+    right: 3.6
     top: 4.1
     bot: -4.5
     center: {x: 0, y: 0}

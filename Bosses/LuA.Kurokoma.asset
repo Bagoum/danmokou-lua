@@ -25,6 +25,8 @@ MonoBehaviour:
   colors: {fileID: 11400000, guid: 0bb2e27cab4e47d42bd598238a66d8be, type: 2}
   rotator: 
   profile:
+    leftSidebar: {fileID: 2800000, guid: a5074affafdeb2b46a26803fd0cc4277, type: 3}
+    rightSidebar: {fileID: 2800000, guid: 8448726af213ef94fb23568e970f79cb, type: 3}
     image: {fileID: 2800000, guid: 238f272d2cfef6d49a623f5a333bbd60, type: 3}
     offsetX: 0.153
     offsetY: 0.714
