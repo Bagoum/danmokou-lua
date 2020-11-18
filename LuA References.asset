@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d7768018aff40589017a165e079b3c1, type: 3}
   m_Name: LuA References
   m_EditorClassIdentifier: 
-  gameIdentifier: L'unique Appareil-photo
+  gameIdentifier: LUA
   gameVersion:
     major: 0
     minor: 2
     patch: 0
   mainMenu: {fileID: 11400000, guid: 940a14e1af1e35345bdde5a809878996, type: 2}
   replaySaveMenu: {fileID: 11400000, guid: 4eb8b66bd76d4d94fa90176835284503, type: 2}
+  defaultMenuBackground: {fileID: 6614173089345499342, guid: 56da452ec6a98284295330ef47ecf1c1,
+    type: 3}
   unitScene: {fileID: 11400000, guid: 231c13e0f2c2b6047b0f05cb29dd7914, type: 2}
   tutorial: {fileID: 0}
   miniTutorial: {fileID: 0}
