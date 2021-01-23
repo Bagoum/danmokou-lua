@@ -21,6 +21,7 @@ MonoBehaviour:
   replaySaveMenu: {fileID: 11400000, guid: 4eb8b66bd76d4d94fa90176835284503, type: 2}
   defaultMenuBackground: {fileID: 6614173089345499342, guid: 56da452ec6a98284295330ef47ecf1c1,
     type: 3}
+  defaultUIFrame: {fileID: 21300000, guid: b682089ebc9c1f6469381aa6382f1c3f, type: 3}
   unitScene: {fileID: 11400000, guid: 231c13e0f2c2b6047b0f05cb29dd7914, type: 2}
   tutorial: {fileID: 0}
   miniTutorial: {fileID: 0}

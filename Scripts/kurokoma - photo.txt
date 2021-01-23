@@ -5,7 +5,7 @@ pattern {
 	}
 }
 phase 0
-	action block 0
+	paction 0
 		shift-phase-to 2
 	
 !{ power1()
@@ -35,10 +35,10 @@ phase 0
 <!> challenge novertical
 <!> challenge nofocus
 <!> type spell `Stop and Doubt: The Road Not Taken`
-<!> photo 4
+<!> photo 2
 <!> root 0 0
 phase 50 #{
-	action block 0
+	paction 0
 		pool-control { fireball-* } cullrad 10 
 		bullet-control persist fireball-black/ batch > (distto &.rootloc) (dist Lplayer &.rootloc) {
 			time 100 _
@@ -86,7 +86,7 @@ phase 50 #{
 <!> photo 4
 <!> root 0 2
 phase 36 #{
-	action block 0
+	paction 0
 !!{ sunt 2
 		bullet-control persist sun-* cull > t $sunt
 		pool-control circle-black/b allowcull false
