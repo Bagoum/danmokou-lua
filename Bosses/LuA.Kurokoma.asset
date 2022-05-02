@@ -13,22 +13,33 @@ MonoBehaviour:
   m_Name: LuA.Kurokoma
   m_EditorClassIdentifier: 
   boss: {fileID: 6003014192476353498, guid: ac6fd8ebfe407e047a8193f70de52a48, type: 3}
-  CardPracticeName: Kurokoma
-  BossPracticeName:
-    _showEnOnly: 0
-    en: Kurokoma
-    jp: "\u9A6A\u99D2"
-  challengeNameOverride:
-    _showEnOnly: 0
-    en: 
-    jp: 
+  localizationBaseKey: boss.kurokoma
+  m_casualName:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+  m_bossPracticeName:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
   replayNameOverride:
-    _showEnOnly: 0
-    en: 
-    jp: 
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+  bottomTrackerNameOverride:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
   stateMachine: {fileID: 4900000, guid: 43d2e1f2c54491d4e854ae97e6b19ff9, type: 3}
   key: lua.kurokoma
-  trackName: "\u9A6A\u99D2"
   colors: {fileID: 11400000, guid: 0bb2e27cab4e47d42bd598238a66d8be, type: 2}
   cardRotator: 
   spellRotator: 

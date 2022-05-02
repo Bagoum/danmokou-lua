@@ -12,7 +12,7 @@ See this repository here: https://github.com/Bagoum/danmokou-lua
 
 This submodule contains material almost identical to the BRuH submodule (https://github.com/Bagoum/danmokou-bruh), but with photo capabilities added. 
 
-All source code in this submodule is distributed under the GNU GPL v3. 
+All source code in the LuA submodule is distributed under the GNU GPL v3. 
 Source code is present in the folders Scripts.
 
 
