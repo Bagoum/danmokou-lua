@@ -38,7 +38,8 @@ MonoBehaviour:
     hardcoded:
       en: 
       jp: 
-  stateMachine: {fileID: 4900000, guid: 43d2e1f2c54491d4e854ae97e6b19ff9, type: 3}
+  stateMachine: {fileID: 2811297602134710623, guid: 2aa3c5080fcd3884a99dad7f5c9de4d5,
+    type: 3}
   key: lua.kurokoma
   colors: {fileID: 11400000, guid: 0bb2e27cab4e47d42bd598238a66d8be, type: 2}
   cardRotator: 
@@ -53,3 +54,4 @@ MonoBehaviour:
   bossCutin: {fileID: 0}
   spellCutins:
   - {fileID: 160725723660692450, guid: 67d5936ef201a4a48b1cf235bdf569c1, type: 3}
+  practiceable: 1
